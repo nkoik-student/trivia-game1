@@ -1,0 +1,163 @@
+
+{
+  "quizCategories": [
+    {
+      "id": "tech",
+      "title": "Trivia for Tech",
+      "description": "Test your knowledge on technology, computers, and the digital world.",
+      "questions": [
+        {
+          "id": "tech-1",
+          "question": "What does CPU stand for?",
+          "options": [
+            "Central Processing Unit",
+            "Computer Personal Unit",
+            "Central Process Utility",
+            "Central Processor Unlimiter"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "tech-2",
+          "question": "Which company created the iPhone?",
+          "options": ["Samsung", "Apple", "Google", "Microsoft"],
+          "correctAnswer": 1
+        },
+        {
+          "id": "tech-3",
+          "question": "What year was the first website created?",
+          "options": ["1991", "1995", "1989", "2000"],
+          "correctAnswer": 0
+        },
+        {
+          "id": "tech-4",
+          "question": "Which programming language is known as the 'mother of all languages'?",
+          "options": ["Java", "C", "Python", "COBOL"],
+          "correctAnswer": 1
+        },
+        {
+          "id": "tech-5",
+          "question": "What does HTML stand for?",
+          "options": [
+            "Hyper Text Markup Language",
+            "Hyper Transfer Markup Language",
+            "High Tech Markup Language",
+            "Hyper Text Making Links"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "History Buff",
+      "description": "Challenge yourself with questions about world history and important events.",
+      "questions": [
+        {
+          "id": "history-1",
+          "question": "In which year did World War II end?",
+          "options": ["1943", "1945", "1947", "1950"],
+          "correctAnswer": 1
+        },
+        {
+          "id": "history-2",
+          "question": "Who was the first President of the United States?",
+          "options": ["Thomas Jefferson", "Abraham Lincoln", "George Washington", "John Adams"],
+          "correctAnswer": 2
+        },
+        {
+          "id": "history-3",
+          "question": "Which ancient civilization built the Machu Picchu?",
+          "options": ["Aztecs", "Mayans", "Incas", "Olmecs"],
+          "correctAnswer": 2
+        },
+        {
+          "id": "history-4",
+          "question": "The Renaissance period originated in which country?",
+          "options": ["France", "Spain", "Italy", "England"],
+          "correctAnswer": 2
+        },
+        {
+          "id": "history-5",
+          "question": "Who wrote 'The Communist Manifesto'?",
+          "options": ["Vladimir Lenin", "Joseph Stalin", "Karl Marx and Friedrich Engels", "Leon Trotsky"],
+          "correctAnswer": 2
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "title": "Science Explorer",
+      "description": "Dive into the world of scientific discoveries, biology, chemistry, and physics.",
+      "questions": [
+        {
+          "id": "science-1",
+          "question": "What is the chemical symbol for gold?",
+          "options": ["Go", "Gl", "Au", "Ag"],
+          "correctAnswer": 2
+        },
+        {
+          "id": "science-2",
+          "question": "Which planet is known as the Red Planet?",
+          "options": ["Venus", "Jupiter", "Mars", "Saturn"],
+          "correctAnswer": 2
+        },
+        {
+          "id": "science-3",
+          "question": "What is the largest organ in the human body?",
+          "options": ["Heart", "Brain", "Liver", "Skin"],
+          "correctAnswer": 3
+        },
+        {
+          "id": "science-4",
+          "question": "Which element has the atomic number 1?",
+          "options": ["Oxygen", "Hydrogen", "Carbon", "Nitrogen"],
+          "correctAnswer": 1
+        },
+        {
+          "id": "science-5",
+          "question": "What is the speed of light in a vacuum?",
+          "options": ["300,000 km/s", "150,000 km/s", "450,000 km/s", "200,000 km/s"],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "id": "entertainment",
+      "title": "Pop Culture Pro",
+      "description": "Test your knowledge of movies, music, celebrities, and entertainment.",
+      "questions": [
+        {
+          "id": "ent-1",
+          "question": "Who played the character of Iron Man in the Marvel Cinematic Universe?",
+          "options": ["Chris Evans", "Chris Hemsworth", "Robert Downey Jr.", "Mark Ruffalo"],
+          "correctAnswer": 2
+        },
+        {
+          "id": "ent-2",
+          "question": "Which band performed the hit song 'Bohemian Rhapsody'?",
+          "options": ["The Beatles", "Led Zeppelin", "Queen", "The Rolling Stones"],
+          "correctAnswer": 2
+        },
+        {
+          "id": "ent-3",
+          "question": "Which film won the Academy Award for Best Picture in 2020?",
+          "options": ["1917", "Joker", "Parasite", "Once Upon a Time in Hollywood"],
+          "correctAnswer": 2
+        },
+        {
+          "id": "ent-4",
+          "question": "Who is the author of the Harry Potter book series?",
+          "options": ["J.R.R. Tolkien", "J.K. Rowling", "Stephen King", "George R.R. Martin"],
+          "correctAnswer": 1
+        },
+        {
+          "id": "ent-5",
+          "question": "Which TV show features characters named Walter White and Jesse Pinkman?",
+          "options": ["Game of Thrones", "Breaking Bad", "The Walking Dead", "Stranger Things"],
+          "correctAnswer": 1
+        }
+      ]
+    }
+  ]
+}
