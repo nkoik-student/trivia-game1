@@ -12,6 +12,7 @@ export default defineConfig(() => ({
     react(),
     tailwindcss()
   ],
+  base: "/trivia-game1",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
