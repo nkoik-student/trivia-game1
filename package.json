@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://nkoik-student.github.io/trivia-game",
+  "homepage": "https://nkoik-student.github.io/trivia-game1",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
