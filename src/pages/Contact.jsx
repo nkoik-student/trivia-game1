@@ -38,14 +38,7 @@ const Contact = () => {
               <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-1">
                 Subject
               </label>
-              <Input id="subject" placeholder="Subject of your message" required />
-            </div>
-            
-            <div>
-              <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">
-                Message
-              </label>
-              <Textarea id="message" placeholder="Your message..." className="min-h-32" required />
+              <Input id="subject" placeholder="Your message" required />
             </div>
             
             <Button type="submit" className="w-full">
