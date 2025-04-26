@@ -51,15 +51,12 @@ const Quiz = () => {
   const handleOptionSelect = (index, answer) => {
     if (showAnswer || currentAnswer) return;
     selectAnswer(index, answer);
+    setShowAnswer(true);
   };
   
   const handleNextQuestion = () => {
     setShowAnswer(false);
     nextQuestion();
-  };
-  
-  const handleShowAnswer = () => {
-    setShowAnswer(true);
   };
   
   return (
@@ -97,13 +94,7 @@ const Quiz = () => {
           </div>
         </div>
         
-        <div className="flex justify-between">
-          {currentAnswer && !showAnswer && (
-            <Button onClick={handleShowAnswer} variant="outline">
-              Show Correct Answer
-            </Button>
-          )}
-          
+        <div className="flex align-end">         
           {(showAnswer || currentAnswer) && (
             <Button onClick={handleNextQuestion} className="ml-auto">
               {currentQuestionIndex < currentCategory.questions.length - 1 ? 'Next Question' : 'See Results'}
